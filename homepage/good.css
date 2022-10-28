@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 1.5rem
+}
+
+.image{
+    height: 25vh;
+    width: auto;
+    border-radius: 10rem;
+}
+
+.myInfo{
+    margin-left: 5rem;
+    color: white;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.details{
+    font-size: 1.3rem;
+}
+
+.moreInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.employment{
+    margin-left : 1rem;
+}
+
+.list{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.empDetails{
+    display : flex
+}
+
+.skills{
+    margin-top: 1rem;
+}
+
+.about{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    padding : 2rem;
+    align-items: center;
+}
+
+.about-list{
+    list-style-type:square;
+}
+
+.about-me{
+    margin: 1rem 0 0 0.2rem
+}
